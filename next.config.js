@@ -1,6 +1,6 @@
 module.exports = {
-    assetPrefix: '/blog-nextjs/',
-    basePath: '/blog-nextjs ',
+    basePath: isProduction ? '/blog-nextjs' : '',
+    assetPrefix: isProduction ? '/blog-nextjs/' : '',
     env: {
         BACKEND_URL: '/blog-nextjs',
     },
