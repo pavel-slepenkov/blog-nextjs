@@ -55,7 +55,7 @@ export default function Layout({ children, home }) {
                 {home ? (
                     <>
                         <img
-                            src="blog-nextjs/images/sh.jpg"
+                            src="images/sh.jpg"
                             className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                             alt={name}
                         />
@@ -66,7 +66,7 @@ export default function Layout({ children, home }) {
                             <Link href="/">
                                 <a>
                                     <img
-                                        src="/images/sh.jpg"
+                                        src="images/sh.jpg"
                                         className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                                         alt={name}
                                     />
