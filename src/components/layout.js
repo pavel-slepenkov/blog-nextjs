@@ -13,7 +13,7 @@ export default function Layout({ children, home }) {
     return (
         <div className={styles.container}>
             <Head>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="favicon.ico" />
                 <link
                     rel="preload"
                     href="https://unpkg.com/prismjs@0.0.1/themes/prism-tomorrow.css"
