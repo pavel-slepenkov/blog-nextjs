@@ -55,7 +55,7 @@ export default function Layout({ children, home }) {
                 {home ? (
                     <>
                         <img
-                            src="/images/sh.jpg"
+                            src="blog-nextjs/images/sh.jpg"
                             className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                             alt={name}
                         />
