@@ -4,38 +4,18 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import { useState } from 'react';
 
-const name = 'Pavel Slepenkov'
-export const siteTitle = 'Pavel Slepenkov personal blog'
+const name = '/dev/null'
+export const siteTitle = 'Pavel Slepenkov\'s personal blog'
 
 export default function Layout({ children, home }) {
-    const [theme, setTheme] = useState('okaidia');
 
     return (
         <div className={styles.container}>
             <Head>
                 <link rel="icon" href="/favicon.ico" />
+
                 <link
-                    rel="preload"
-                    href="https://unpkg.com/prismjs@0.0.1/themes/prism-tomorrow.css"
-                    as="script"
-                />
-                <link
-                    rel="preload"
-                    href="https://unpkg.com/prismjs@0.0.1/themes/prism-coy.css"
-                    as="script"
-                />
-                <link
-                    rel="preload"
-                    href="https://unpkg.com/prismjs@0.0.1/themes/prism-okaidia.css"
-                    as="script"
-                />
-                <link
-                    rel="preload"
-                    href="https://unpkg.com/prismjs@0.0.1/themes/prism-funky.css"
-                    as="script"
-                />
-                <link
-                    href={`https://unpkg.com/prismjs@0.0.1/themes/prism-${theme}.css`}
+                    href={`https://unpkg.com/prismjs@1.23.0/themes/prism-okaidia.css`}
                     rel="stylesheet"
                 />
                 <meta
@@ -44,13 +24,12 @@ export default function Layout({ children, home }) {
                 />
                 <meta
                     property="og:image"
-                    content={`https://og-image.now.sh/${encodeURI(
-                        siteTitle
-                    )}.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-color-logo.svg&widths=auto`}
+                    content="/og.png"
                 />
                 <meta name="og:title" content={siteTitle} />
+                <meta property='og:type' content="article" />
+                <meta property='og:site_name' content="pavelslepenkov.info" />
                 <meta name="twitter:card" content="summary_large_image" />
-
 
                 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63037633-1"></script>
                 <script
@@ -59,10 +38,12 @@ export default function Layout({ children, home }) {
                             window.dataLayer = window.dataLayer || [];
                             function gtag(){dataLayer.push(arguments);}
                             gtag('js', new Date());
-
                             gtag('config', 'UA-63037633-1');
                     `}}
                 />
+                <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
+                </style>
 
             </Head>
             <header className={styles.header}>
@@ -73,7 +54,7 @@ export default function Layout({ children, home }) {
                             className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                             alt={name}
                         />
-                        <h1 className={utilStyles.heading2Xl}>{name}</h1>
+                        <h1 className={`${styles.devNull} `}>{name}</h1>
                     </>
                 ) : (
                         <>
@@ -98,7 +79,7 @@ export default function Layout({ children, home }) {
             {!home && (
                 <div className={styles.backToHome}>
                     <Link href="/">
-                        <a>← Back to home</a>
+                        <a>⇐ back to home</a>
                     </Link>
                 </div>
             )}

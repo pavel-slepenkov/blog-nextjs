@@ -22,4 +22,10 @@
 
 .backToHome {
   margin: 3rem 0 0;
+  font-size: x-large;
+}
+
+.devNull {
+  font-family:Ubuntu Mono, Consolas,Monaco,Andale Mono,monospace;
+  font-size: 12px;
 }

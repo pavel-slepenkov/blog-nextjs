@@ -22,9 +22,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
 
-        <p>
-          Hi there, my name is Pavel and I'm a developer and data engineer
-        </p>
+          Hi there, my name is Pavel and I'm a developer and data engineer currently working @ targetprocess.com
 
       </section>
 
@@ -38,8 +36,7 @@ export default function Home({ allPostsData }) {
               </Link>
               <br />
               <small className={utilStyles.lightText}>
-                {/* <Date dateString={date} /> */}
-                {/* {date} */}
+                <Date dateString={date} />
               </small>
             </li>
 
