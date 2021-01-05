@@ -25,3 +25,12 @@ img {
   max-width: 100%;
   display: block;
 }
+
+blockquote {
+  border-top: #798da5 solid;
+  border-bottom: #798da5 solid;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: italic;
+  margin-left: 22px;
+}
