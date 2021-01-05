@@ -50,6 +50,20 @@ export default function Layout({ children, home }) {
                 />
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
+
+
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63037633-1"></script>
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
+
+                            gtag('config', 'UA-63037633-1');
+                    `}}
+                />
+
             </Head>
             <header className={styles.header}>
                 {home ? (
