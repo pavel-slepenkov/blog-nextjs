@@ -4,7 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import { useState } from 'react';
 
-const name = '/dev/null'
+const name = '$ /dev/null'
 export const siteTitle = 'Pavel Slepenkov\'s personal blog'
 
 export default function Layout({ children, home }) {
@@ -26,6 +26,10 @@ export default function Layout({ children, home }) {
                     property="og:image"
                     content="/og.png"
                 />
+
+                <meta http-equiv="cache-control" content="Private" />
+                <meta http-equiv="Expires" content="366000" />
+
                 <meta name="og:title" content={siteTitle} />
                 <meta property='og:type' content="article" />
                 <meta property='og:site_name' content="pavelslepenkov.info" />
@@ -42,7 +46,7 @@ export default function Layout({ children, home }) {
                     `}}
                 />
                 <style>
-                    @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Spectral:wght@300&display=swap');
                 </style>
 
             </Head>
@@ -53,6 +57,7 @@ export default function Layout({ children, home }) {
                             src="images/sh.jpg"
                             className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                             alt={name}
+                            height="100px"
                         />
                         <h1 className={`${styles.devNull} `}>{name}</h1>
                     </>
@@ -69,7 +74,7 @@ export default function Layout({ children, home }) {
                             </Link>
                             <h2 className={utilStyles.headingLg}>
                                 <Link href="/">
-                                    <a className={utilStyles.colorInherit}>{name}</a>
+                                    <a className={` ${utilStyles.colorInherit} ${styles.devNull}`}>{name}</a>
                                 </Link>
                             </h2>
                         </>
