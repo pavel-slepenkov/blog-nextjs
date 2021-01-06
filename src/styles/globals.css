@@ -34,3 +34,49 @@ blockquote {
   font-style: italic;
   margin-left: 22px;
 }
+
+p img {
+  max-width: 60%;
+  display: block;
+  margin: 0 auto;
+
+}
+
+ps1 {
+  font-size: 22px;
+  font-style: italic;
+  color: rgb(207, 136, 86);
+
+}
+body.light-mode {
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #10171d;
+  color: #dfdfdf;
+
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 110%;
+  display: flex;
+  background-color: #011c30;
+  margin-left: -50px;
+  margin-right: -50px;
+}
+
+.navbar-link {
+  display: initial;
+  font-size: large;
+  font-family: 'JetBrains Mono', Ubuntu Mono, Consolas,Monaco,Andale Mono,monospace;
+  padding-bottom: 1rem;
+}
+.navbar-link a {
+  padding-right: 10px;
+  padding-left: 10px;
+}

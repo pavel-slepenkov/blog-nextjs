@@ -3,14 +3,15 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import { useState } from 'react';
+import DarkModeToggle from './DarkModeToggle';
 
 const name = '$ /dev/null'
 export const siteTitle = 'Pavel Slepenkov\'s personal blog'
 
 export default function Layout({ children, home }) {
-
     return (
         <div className={styles.container}>
+
             <Head>
                 <link rel="icon" href="/favicon.ico" />
 
@@ -51,34 +52,19 @@ export default function Layout({ children, home }) {
 
             </Head>
             <header className={styles.header}>
-                {home ? (
-                    <>
-                        <img
-                            src="images/sh.jpg"
-                            className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-                            alt={name}
-                            height="100px"
-                        />
-                        <h1 className={`${styles.devNull} `}>{name}</h1>
-                    </>
-                ) : (
-                        <>
-                            <Link href="/">
-                                <a>
-                                    <img
-                                        src="/images/sh.jpg"
-                                        className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-                                        alt={name}
-                                    />
-                                </a>
-                            </Link>
-                            <h2 className={utilStyles.headingLg}>
-                                <Link href="/">
-                                    <a className={` ${utilStyles.colorInherit} ${styles.devNull}`}>{name}</a>
-                                </Link>
-                            </h2>
-                        </>
-                    )}
+
+                <div className="navbar-link">
+
+                    <Link href="/">
+                        <a className={`${styles.devNull}`}>{name}</a>
+                    </Link>———
+
+                    <a styleClass={styles.devNull} href="https://pavel-slepenkov.github.io">About </a>———
+                    <a styleClass={styles.devNull} href="https://pavel-slepenkov.github.io">Projects</a>
+                    {/* <a styleClass={styles.devNull} href="https://pavel-slepenkov.github.io">In Russian</a> */}
+
+                </div>
+                <DarkModeToggle />
             </header>
             <main>{children}</main>
             {!home && (
