@@ -39,15 +39,22 @@ p img {
   max-width: 60%;
   display: block;
   margin: 0 auto;
-
 }
 
 ps1 {
   font-size: 22px;
   font-style: italic;
   color: rgb(207, 136, 86);
-
 }
+
+ps2 {
+  box-shadow: inset 20px 0px 20px 20px #4dffed7d;
+  color: #242938;
+  font-style: italic;
+  font-weight: 100;
+  font-stretch: semi-condensed;
+}
+
 body.light-mode {
   background-color: #fff;
   color: #333;
@@ -57,7 +64,6 @@ body.light-mode {
 body.dark-mode {
   background-color: #10171d;
   color: #dfdfdf;
-
 }
 
 .navbar {
