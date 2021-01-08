@@ -27,12 +27,16 @@ img {
 }
 
 blockquote {
-  border-top: #798da5 solid;
-  border-bottom: #798da5 solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top: #cacaca solid;
+  border-bottom: #cacaca solid;
   font-size: 16px;
   font-weight: 600;
   font-style: italic;
   margin-left: 22px;
+  background: #fdffe6;
+  color: cadetblue;
 }
 
 p img {
@@ -48,8 +52,8 @@ ps1 {
 }
 
 ps2 {
-  box-shadow: inset 20px 0px 20px 20px #4dffed7d;
-  color: #242938;
+  box-shadow: inset 20px 0px 20px 20px #6bfff07d;
+  color: #001e75;
   font-style: italic;
   font-weight: 100;
   font-stretch: semi-condensed;
@@ -90,4 +94,11 @@ body.dark-mode {
 code[class*="language-"], pre[class*="language-"] {
   font-family: "JetBrains Mono";
   font-size: small;
+}
+
+code {
+  background: #272822;
+  color: #94cc11;
+  font-family: 'JetBrains Mono';
+  font-size: 14px;
 }
