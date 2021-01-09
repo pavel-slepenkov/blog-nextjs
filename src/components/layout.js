@@ -35,6 +35,7 @@ export default function Layout({ children, home }) {
                 <meta property='og:type' content="article" />
                 <meta property='og:site_name' content="pavelslepenkov.info" />
                 <meta name="twitter:card" content="summary_large_image" />
+                <meta name="yandex-verification" content="35a3887ea995a4c4" />
 
                 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63037633-1"></script>
                 <script
