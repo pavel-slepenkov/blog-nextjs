@@ -42,7 +42,7 @@ export default function Home({ allPostsData }) {
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
                 {tag.map((t) => (
-                  <span className={utilStyles.tag}>
+                  <span className={utilStyles.tag} key={t} >
                     <Link href={`/tag/${convert_tag_to_path(t)}`}>
                       <a>[{t}]</a>
                     </Link>
