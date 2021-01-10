@@ -50,3 +50,14 @@
 .lightText {
   color: #999;
 }
+
+.tag {
+  margin-left: 10px;
+  color:rgba(112, 97, 126, 0.384);
+  font-size: small;
+}
+
+.tagPageDate {
+  margin: 15px;
+  color: #999;
+}

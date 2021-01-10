@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
+import { convert_tag_to_path } from '../lib/utils'
 import Date from '../components/date'
 
 export async function getStaticProps() {
@@ -32,7 +33,7 @@ export default function Home({ allPostsData }) {
         </h2>
 
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
+          {allPostsData.map(({ id, date, title, tag }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
                 <a>✳︎ {title}</a>
@@ -40,6 +41,13 @@ export default function Home({ allPostsData }) {
               <br />
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
+                {tag.map((t) => (
+                  <span className={utilStyles.tag}>
+                    <Link href={`/tag/${convert_tag_to_path(t)}`}>
+                      <a>[{t}]</a>
+                    </Link>
+                  </span>
+                  ))}
               </small>
             </li>
 

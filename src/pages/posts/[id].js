@@ -1,5 +1,7 @@
 import Layout from '../../components/layout'
+import Link from 'next/link'
 import { getAllPostIds, getPostData } from '../../lib/posts'
+import { convert_tag_to_path } from '../../lib/utils'
 import Date from '../../components/date'
 import Head from 'next/head'
 import utilStyles from '../../styles/utils.module.css'
@@ -17,6 +19,15 @@ export default function Post({ postData }) {
                 </div>
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
             </article>
+            <div>
+                {postData.tag.map((tag) => (
+                    <span className={utilStyles.tag} >
+                        <Link href={`/tag/${convert_tag_to_path(tag)}`}>
+                            <a>[{tag}]</a>
+                        </Link>
+                    </span>
+                ))}
+            </div>
         </Layout>
     )
 }
