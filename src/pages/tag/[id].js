@@ -4,6 +4,7 @@ import Date from '../../components/date'
 import Head from 'next/head'
 import utilStyles from '../../styles/utils.module.css'
 import { getAllTags } from '../../lib/tag'
+import { convert_tag_to_path } from '../../lib/utils'
 
 const allTags = getAllTags();
 
@@ -23,7 +24,7 @@ export async function getStaticPaths() {
     const paths = Object.keys(allTags).map(fileName => {
         return {
             params: {
-                id: fileName.replaceAll(' ', '-').replaceAll('_', '-')
+                id: convert_tag_to_path(fileName)
             }
         }
     })
