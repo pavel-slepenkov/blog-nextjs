@@ -7,6 +7,7 @@ class MyDocument extends Document {
                 <Head />
                 <body>
                     <script src="noflash.js" />
+                    <script src="PathSolver.js" />
                     <Main />
                     <NextScript />
                 </body>
