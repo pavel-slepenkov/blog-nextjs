@@ -12,14 +12,13 @@ export const shortDescription = 'stories about BI, python, salesforce and data a
 export default function Layout({ children, home }) {
     return (
         <div className={styles.container}>
-
             <Head>
                 <link rel="icon" href="/favicon.ico" />
                 <link href={`https://unpkg.com/prismjs@1.23.0/themes/prism-okaidia.css`} rel="stylesheet" />
 
                 <meta charset="UTF-8"></meta>
+                <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
                 <meta name="description" content={`${siteTitle}: ${shortDescription}`}/>
-
 
                 <meta http-equiv="cache-control" content="Private" />
                 <meta http-equiv="Expires" content="366000" />
@@ -36,6 +35,8 @@ export default function Layout({ children, home }) {
                 <meta name="twitter:description" content={shortDescription} />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta property="twitter:image" content="/og.png" />
+
+                <meta name="keywords" content="python, BI, salesforce, data engineering, apex, sql, soql, data analisys" />
 
                 <meta name="yandex-verification" content="35a3887ea995a4c4" />
 
@@ -55,17 +56,12 @@ export default function Layout({ children, home }) {
 
             </Head>
             <header className={styles.header}>
-
                 <div className="navbar-link">
-
                     <Link href="/">
                         <a className={`${styles.devNull}`}>{name}</a>
                     </Link>———
-
-                    <a styleClass={styles.devNull} href="https://pavel-slepenkov.github.io">About </a>———
-                    <a styleClass={styles.devNull} href="https://pavel-slepenkov.github.io">Projects</a>
-                    {/* <a styleClass={styles.devNull} href="https://pavel-slepenkov.github.io">In Russian</a> */}
-
+                    <a className={styles.devNull} href="https://pavel-slepenkov.github.io">About </a>———
+                    <a className={styles.devNull} href="https://pavel-slepenkov.github.io">Projects</a>
                 </div>
                 <DarkModeToggle />
             </header>
