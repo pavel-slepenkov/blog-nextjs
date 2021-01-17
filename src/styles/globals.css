@@ -115,3 +115,9 @@ code {
   font-family: 'JetBrains Mono';
   font-size: 14px;
 }
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
