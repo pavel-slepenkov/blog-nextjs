@@ -46,6 +46,10 @@ p img {
   margin: 0 auto;
 }
 
+h1 {
+  word-wrap: break-word;
+}
+
 ps1 {
   font-size: 22px;
   font-style: italic;
@@ -70,6 +74,12 @@ ps2 {
   font-style: italic;
   font-weight: 100;
   font-stretch: semi-condensed;
+}
+
+ps3 {
+  font-size: 18px;
+  font-style: italic;
+  color: #3a9c52;
 }
 
 body.light-mode {
