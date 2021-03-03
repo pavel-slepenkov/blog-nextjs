@@ -131,3 +131,11 @@ code {
   justify-content: center;
   align-items: center;
 }
+td, th {
+  border: 1px solid rgb(130, 190, 125);
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
