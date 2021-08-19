@@ -36,7 +36,7 @@ export default function Home({ pageData }) {
 
                     <br/>
 
-                    <img src="/images/sh.jpg" className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`} />
+                    <img src="/images/pvl2021.png" className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`} />
 
                     <h1 className={utilStyles.headingLg}>
 
