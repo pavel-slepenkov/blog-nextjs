@@ -19,12 +19,12 @@ I found that answering other people questions is a very fun and effective way to
 I'm currently with <a href="https://www.apptio.com/">Apptio</a> and <a href="https://www.targetprocess.com">Apptio Targetprocess</a> as a senior BI/Data engineer. My main goal here is to provide data platform which improves and transforms business.
 
 Current technology stack:
-🛠 Python
-🛠 Postgres / MSSQL
-🛠 AWS: Redshift, S3, Lambda, RDS, EC2
-🛠 Redis
-🛠 Tableau
-🛠 Node.js
+- 🛠 Python
+- 🛠 Postgres / MSSQL
+- 🛠 AWS: Redshift, S3, Lambda, RDS, EC2
+- 🛠 Redis
+- 🛠 Tableau
+- 🛠 Node.js
 
 Here're some of my public pages where you can get me know a little bit further
 
