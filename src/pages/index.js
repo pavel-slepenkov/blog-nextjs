@@ -23,13 +23,13 @@ export default function Home({ allPostsData }) {
       </Head>
 
       <section className={utilStyles.headingMd}>
-        Hi there, my name is Pavel and I'm a developer and data engineer currently working @ targetprocess.com.
+        Hi there, my name is Pavel and I'm a developer and data engineer with <b>Apptio</b> and <b>Apptio Targetprocess</b>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
 
         <h2 className={utilStyles.headingLg}>
-          [ Blog ]
+          <b>[</b> Blog <b>]</b>
         </h2>
 
         <ul className={utilStyles.list}>

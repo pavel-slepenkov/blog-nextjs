@@ -63,7 +63,7 @@ export default function Layout({ children, home }) {
                     <Link href="/about">
                         <a className={`${styles.devNull}`}>About </a>
                     </Link>———
-                    <a className={styles.devNull} href="https://pavel-slepenkov.github.io">Projects</a>
+                    <a className={styles.devNull} href="https://pavel-slepenkov.github.io">CV</a>
                 </div>
                 <DarkModeToggle />
             </header>
