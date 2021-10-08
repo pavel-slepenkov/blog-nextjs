@@ -36,7 +36,7 @@ export default function Layout({ children, home }) {
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta property="twitter:image" content="/og.png" />
 
-                <meta name="keywords" content="python, BI, salesforce, data engineering, apex, sql, soql, data analisys" />
+                <meta name="keywords" content="python, BI, sql, salesforce, data engineering, apex, soql, data analisys" />
 
                 <meta name="yandex-verification" content="35a3887ea995a4c4" />
 
@@ -55,18 +55,22 @@ export default function Layout({ children, home }) {
                 </style>
 
             </Head>
-            <header className={styles.header}>
-                <div className="navbar-link">
-                    <Link href="/">
-                        <a className={`${styles.devNull}`}>{name}</a>
-                    </Link>———
-                    <Link href="/about">
-                        <a className={`${styles.devNull}`}>About </a>
-                    </Link>———
-                    <a className={styles.devNull} href="https://pavel-slepenkov.github.io">CV</a>
-                </div>
-                <DarkModeToggle />
-            </header>
+            <div class="no-print">
+
+                <header className={styles.header}>
+                    <div className="navbar-link">
+                        <Link href="/">
+                            <a className={`${styles.devNull}`}>{name}</a>
+                        </Link>———
+                        <Link href="/about">
+                            <a className={`${styles.devNull}`}>About </a>
+                        </Link>———
+                        <a className={styles.devNull} href="/cv">CV</a>
+                    </div>
+                    <DarkModeToggle />
+                </header>
+            </div>
+
             <main>{children}</main>
             {!home && (
                 <div className={styles.backToHome}>

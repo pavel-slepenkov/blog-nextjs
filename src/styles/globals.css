@@ -139,3 +139,49 @@ table {
   width: 100%;
   text-align: center;
 }
+.right-pinned {
+  /* display: flex; */
+  /* justify-content: right; */
+  /* align-items: right; */
+  text-align: right;
+}
+.skill-block {
+  width:50%;
+  display: inline-block;
+}
+.logos {
+  width: 50px;
+}
+.table-no-borders {
+  border:0px solid transparent;
+}
+.table-no-borders td {
+  border:0px solid transparent;
+}
+.hidden {
+  display: none;
+}
+.print-only{
+    display: none;
+}
+.social-links {
+    text-align: left;
+    font-size: x-small;
+}
+
+@media print
+{
+  body {
+    font-size: 14px;
+  }
+  div {
+    font-size: 14px;
+  }
+  .no-print, .no-print * {
+      display: none !important;
+  }
+  .print-only {
+      display: block;
+  }
+
+}

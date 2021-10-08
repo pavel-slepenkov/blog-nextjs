@@ -1,0 +1,10 @@
+.layout {
+    border:0px solid transparent;
+}
+.layout td {
+    border:0px solid transparent;
+    text-align: left;
+    vertical-align: top;
+    width: 50%;
+    font-size: smaller;
+}
