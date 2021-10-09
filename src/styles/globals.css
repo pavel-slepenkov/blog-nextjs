@@ -89,8 +89,13 @@ body.light-mode {
 }
 
 body.dark-mode {
-  background-color: #10171d;
-  color: #dfdfdf;
+  background-color: #231024;
+  color: #ceb4b4;
+}
+
+body.dark-mode img.social-logo {
+  -webkit-filter: invert(1);
+  filter: invert(1);
 }
 
 .navbar {
@@ -149,7 +154,7 @@ table {
   width:50%;
   display: inline-block;
 }
-.logos {
+.social-logo {
   width: 50px;
 }
 .table-no-borders {
@@ -166,16 +171,42 @@ table {
 }
 .social-links {
     text-align: left;
-    font-size: x-small;
+    font-size: small;
 }
 
 @media print
 {
   body {
     font-size: 14px;
+    letter-spacing: -0.75px;
+    line-height: 0.75px;
   }
   div {
     font-size: 14px;
+  }
+  p {
+    margin-top: -2px;
+    margin-bottom: -2px;
+  }
+  ul {
+    margin-top: -2px;
+    margin-bottom: -2px;
+  }
+  li {
+    margin-top: -2px;
+    margin-bottom: -2px;
+  }
+  h3 {
+    margin-bottom: -4px;
+    margin-top: -5px;
+  }
+  h4 {
+    margin-bottom: -4px;
+    margin-top: -5px;
+  }
+  @page {
+    size: auto;
+    margin: 0;
   }
   .no-print, .no-print * {
       display: none !important;
