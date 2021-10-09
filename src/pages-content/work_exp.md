@@ -36,18 +36,9 @@ I successfully completed ~10 projects for different Epam's customers including F
 - Played role of build engineer, provided my expertise in CI/CD practices to other teams
 - Wide experience with Agile methodologies
 
-**BelWillesden**
+**BelWillesden (IT Dept of retail chain)**
 <p>Nov. 2009 - Sept. 2011 (Lotus Domino Developer)</p>
-BelWillesden is a company which manages a chain stores in Belarus. I worked as Lotus Domino developer in IT department.
 
 - Development and support of Electronic Document Management System in part of financial statistics / budgeting modules.
 - Development of Internal Help Desk system: team allocation workflow, statistic module, data migration to MSSQL, integrations
-- Integrate Help Desk with Nagios.
 - Integrate Lotus Notes with Microsoft Dynamics AX/Dynamics CRM.
-
-**Armed Forces of Belarus**
-<p>Mar. 2007 - Mar. 2009 (System administrator / telecommunication specialist)</p>
-
-- Manage computer networks
-- Manage Linux servers
-- Support telecommunication system
