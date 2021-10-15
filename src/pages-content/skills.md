@@ -6,43 +6,39 @@ type: page
 id: skills
 ---
 
-<div class="section-header">KEY SKILLS</div>
+<div class="section-header right-pinned">KEY SKILLS</div>
 
 - Python
+    - OOP, asyncio, funcy, pandas, matplotlib, seaborn
+    - Django
 - JavaScript
     - Nodejs
-    - React, Lightning Framework, AngularJS, D3
-- AWS / Google Cloud
+    - React, Lightning Framework, AngularJS
+- AWS
     - Redshift, EC2, S3, RDS, Athena, Glue, Lambda
-    - GCE / BigQuery / GCS
 - Databases and Datawarehouses, its desing and architecure
-    - Postgres / MSSQL
-    - Redshift / ClickHouse
-    - NoSQL
+    - Postgres, MSSQL, Redshift, NoSQL
+- Message Queues: Redis
 - ETL Tools
-    - In-house built ETL frameworks (python)
+    - In-house built ETL frameworks (mostly in python)
     - Apache Airflow
-    - Fivetran / StitchData
-    - Salesforce related ETL tools (Dataloader / DBAmp)
-- Advanced analytical SQL / Tableau reporting
-- DevOps & CI/CD Pipeline
-    - Docker, Jenkins / TeamCity / Ansible
-    - Bash scripting
-- HTML/CSS + Bootstrap / Lightning Design System
-- Software testing:
-    - Unit testing: pytest / mocha
-    - Selenium WebDriver for UI automated test
-- Fullstack Salesforce developer / architect
-    - Apex / VisualForce / Lightning
-    - Salesforce APIs
-    - AppExchange / Managed Packages development
-- Any kind of APIs (developing and integration)
+    - Fivetran, StitchData, Pentaho
+    - Salesforce related ETL tools (Dataloader, DBAmp)
+- Advanced analytical SQL, Tableau reporting
+- DevOps & CI/CD Pipelines
+    - Docker, Jenkins, TeamCity, Ansible, Bash
+- Fullstack Salesforce developer, architect
+    - Apex, VisualForce, Lightning, Salesforce APIs
+    - AppExchange, Managed packages development
+- HTML/CSS
+- Any kind of APIs (developing own ones and integration with 3rd party)
 - A full range of modern developer tooling
-- Soft skills
+- Soft skills: Leadership
 
-<hr>
 
-<div class="section-header">Education & Certification</div>
+
+<div class="section-header right-pinned">Education & Certification</div>
+
 - Belarusian National Technical University (4 courses of Software engineering spec)
 - Certified Force.com Developer (Winter'13)
 - Salesforce.com Certified Administrator (Spring'13)

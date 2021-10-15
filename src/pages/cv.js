@@ -1,11 +1,10 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
-import Date from '../components/date'
 import { getPageByName } from '../lib/pages'
 import styles from '../components/layout.module.css'
 import cvStyles from '../styles/cv.module.css'
+// import '../styles/cv.module.css'
 
 export async function getStaticProps() {
     const pageData = await getPageByName('cv');
@@ -42,10 +41,10 @@ export default function Home({ pageData, skills, workExp }) {
                 <div dangerouslySetInnerHTML={{ __html: pageData.contentHtml }} />
                 <table className={cvStyles.layout}>
                     <tr>
-                        <td>
+                        <td className="cv-work-experience">
                             <div dangerouslySetInnerHTML={{ __html: workExp.contentHtml }} />
                         </td>
-                        <td class="right-pinned">
+                        <td className="right-pinned">
                             <div dangerouslySetInnerHTML={{ __html: skills.contentHtml }} />
                         </td>
                     </tr>
