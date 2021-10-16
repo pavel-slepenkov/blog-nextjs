@@ -210,12 +210,13 @@ table {
     p {
         margin-top: -2px;
         margin-bottom: -2px;
+        line-height: 20px;
     }
     ul {
         margin-top: -2px;
         margin-bottom: -2px;
         margin-left: -25px;
-        line-height: 21px;
+        line-height: 20px;
         /* text-align: justify; */
     }
     li {
@@ -270,5 +271,8 @@ table {
         font-size: 12px;
         font-weight: 600;
         color: #2f3a43;
+    }
+    .profile-summary {
+        line-height: 20px;
     }
 }

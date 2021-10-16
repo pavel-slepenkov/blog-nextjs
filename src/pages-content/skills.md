@@ -10,22 +10,23 @@ id: skills
 
 - **Python**: OOP, asyncio, funcy, pandas, matplotlib, seaborn, Django
 - **JavaScript**: Nodejs, ES6, React, Lightning Framework, AngularJS
-- **AWS**: Redshift, EC2, S3, RDS, Athena, Glue, Lambda
-- **Databases** and Datawarehouses, its desing and architecure: Postgres, MSSQL, NoSQL
-- **Message Queues**: Celery, Redis
+- **AWS**: EC2, S3, Athena, Glue, Lambda, IAM and security
+- **Databases**: AWS Redshift, AWS RDS, Postgres, MSSQL, NoSQL
+- **Message Queues**: Celery, Rediss
 - **Advanced SQL**
+- **Linux**
 - **ETL Tools**
-    - In-house built ETL frameworks (mostly in python)
     - Apache Airflow, Luigi
+    - In-house built ETL frameworks
     - 3rd party: Fivetran, StitchData, Pentaho, Salesforce related ETL (Dataloader, DBAmp)
 - **Tableau** and **JupiterLab**
-- **DevOps** & CI/CD Pipelines: Docker, Jenkins, TeamCity, Ansible, Bash, GitHub Actions
+- **DevOps** & CI/CD Pipelines: Docker, Jenkins, TeamCity, Ansible, Bash, GH Actions
 - Fullstack **Salesforce** developer, architect: Apex, VisualForce, Lightning, Salesforce APIs, Managed packages development
 - Aware of modern **HTML/CSS**
 - **Software testing**: unit and integration testing, UI automated testing with Selenium
 - Any kind of **APIs** (developing own ones and integration with 3rd party)
 - A full range of modern developer tooling
-- Most of the projects which I was part of were using Agile methodologies.
+- Have wide experience in **Agile** methodologies, as most of the projects which I was part of were using it. Targetprocess itself is project management tool which supports Scrum, Kanban and SAFe
 
 <div class="section-header right-pinned">Education & Certification</div>
 
