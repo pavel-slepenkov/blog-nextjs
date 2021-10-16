@@ -8,3 +8,15 @@
     width: 50%;
     font-size: smaller;
 }
+.cvWorkExperience {
+    width: 65% !important;
+}
+.cvWorkExperience li {
+    text-align: justify;
+    /* line-height: 25px; */
+}
+.cvSkillsSection {
+    text-align: justify;
+    line-height: 25px;
+}
+

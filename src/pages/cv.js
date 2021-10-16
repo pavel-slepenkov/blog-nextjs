@@ -41,10 +41,10 @@ export default function Home({ pageData, skills, workExp }) {
                 <div dangerouslySetInnerHTML={{ __html: pageData.contentHtml }} />
                 <table className={cvStyles.layout}>
                     <tr>
-                        <td className="cv-work-experience">
+                        <td className={cvStyles.cvWorkExperience}>
                             <div dangerouslySetInnerHTML={{ __html: workExp.contentHtml }} />
                         </td>
-                        <td className="right-pinned">
+                        <td className={cvStyles.cvSkillsSection}>
                             <div dangerouslySetInnerHTML={{ __html: skills.contentHtml }} />
                         </td>
                     </tr>

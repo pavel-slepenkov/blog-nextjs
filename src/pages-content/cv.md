@@ -10,7 +10,7 @@ id: CV
         <td class="cv-summary">
             <div class="left-pinned section-header print-only">Pavel Slepiankou</div>
             <p>
-                Passionate software engineer with more than ten years of professional software craftmanship experience. Solve a business problems with code, low-code, no-code and common sense. Able to elaborate business needs with users and stakeholders, analyze it, design the solution and build it. Proficient with several programming languages, especially with Python and JavaScript. My current primary specialisation is Data Engineering. I also have a solid experience in Salesforce.com as a developer and architect. Most of the projects which I was part of were using Agile methodologies.
+                Passionate software engineer with more than ten years of professional software craftsmanship experience. Solve business problems with code, low-code, no-code, and common sense. Able to elaborate business needs with users and stakeholders, analyze them, design the solution, build it, run in production, and adopt across the users. Proficient with several programming languages, especially with Python and JavaScript. My current primary specialization is Data Engineering. I also have a solid experience in Salesforce.com as a developer and architect.
             </p>
         </td>
         <td class="print-only contact-info-section">

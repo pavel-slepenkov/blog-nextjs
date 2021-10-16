@@ -215,6 +215,8 @@ table {
         margin-top: -2px;
         margin-bottom: -2px;
         margin-left: -25px;
+        line-height: 21px;
+        /* text-align: justify; */
     }
     li {
         margin-top: -2px;
@@ -236,7 +238,7 @@ table {
     .company-header {
         font-size: 14px;
         font-weight: 600;
-        color:#457d46;
+        color:#52c66a;
     }
     .social-logos-section {
         display: block;
@@ -255,9 +257,9 @@ table {
         width: 65%;
         text-align: justify;
     }
-    .cv-work-experience {
+    /* .cv-work-experience {
         width: 65% !important;
-    }
+    } */
     .contact-info-section {
         margin-left: 16px;
     }
