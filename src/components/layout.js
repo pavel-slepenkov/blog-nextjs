@@ -61,11 +61,10 @@ export default function Layout({ children, home }) {
                     <div className="navbar-link">
                         <Link href="/">
                             <a className={`${styles.devNull}`}>{name}</a>
-                        </Link>———
-                        <Link href="/about">
-                            <a className={`${styles.devNull}`}>About </a>
-                        </Link>———
-                        <a className={styles.devNull} href="/cv">CV</a>
+                        </Link>—————
+                        <Link href="/cv">
+                            <a className={styles.devNull}>CV</a>
+                        </Link>
                     </div>
                     <DarkModeToggle />
                 </header>
