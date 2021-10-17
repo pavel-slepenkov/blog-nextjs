@@ -12,7 +12,7 @@ id: skills
 - **JavaScript**: Nodejs, ES6, React, Lightning Framework, AngularJS
 - **AWS**: EC2, S3, Athena, Glue, Lambda, IAM and security
 - **Databases**: AWS Redshift, AWS RDS, Postgres, MSSQL, NoSQL
-- **Message Queues**: Celery, Rediss
+- **Message Queues**: Celery, Redis
 - **Advanced SQL**
 - **Linux**
 - **ETL Tools**
@@ -25,8 +25,8 @@ id: skills
 - Aware of modern **HTML/CSS**
 - **Software testing**: unit and integration testing, UI automated testing with Selenium
 - Any kind of **APIs** (developing own ones and integration with 3rd party)
-- A full range of modern developer tooling
-- Have wide experience in **Agile** methodologies, as most of the projects which I was part of were using it. Targetprocess itself is project management tool which supports Scrum, Kanban and SAFe
+- Full range of modern developer tooling
+- Have wide experience in **Agile** methodologies, as most of the projects which I was part of were using it. Moreover, Targetprocess itself is a project management tool which supports Scrum, Kanban and SAFe
 
 <div class="section-header right-pinned">Education & Certification</div>
 
