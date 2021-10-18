@@ -12,11 +12,11 @@ id: skills
 - **JavaScript**: Nodejs, ES6, React, Lightning Framework, AngularJS
 - **AWS**: EC2, S3, Athena, Glue, Lambda, IAM and security
 - **Databases**: AWS Redshift, AWS RDS, Postgres, MSSQL, NoSQL
-- **Message Queues**: Celery, Redis
+- **Message Queues**: Kafka, Celery+Redis
 - **Advanced SQL**
 - **Linux**
 - **ETL Tools**
-    - Apache Airflow, Luigi
+    - Apache Airflow, Luigi, dbt
     - In-house built ETL frameworks
     - 3rd party: Fivetran, StitchData, Pentaho, Salesforce related ETL (Dataloader, DBAmp)
 - **Tableau** and **JupiterLab**
