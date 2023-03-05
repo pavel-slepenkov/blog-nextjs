@@ -14,7 +14,7 @@ id: CV
             </p>
         </td>
         <td class="print-only contact-info-section">
-            <div class="left-pinned contact-info">▸ Minsk, <i style="font-size:11px">Willing to relocate, visa sponsorship required</i></div>
+            <div class="left-pinned contact-info">▸ Krakow, Poland, </i></div>
             <div class="left-pinned contact-info">Russian (native) / English (B2+)</div>
             <br/>
             <div class="left-pinned contact-info">▸ pavel.slepenkov@gmail.com | +375-33-669-4140</div>
