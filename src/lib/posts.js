@@ -37,8 +37,8 @@ export function getAllPostIds() {
             params: {
                 id: fileName.replace(/\.md$/, '')
             }
-        }
-    })
+        };
+    });
 }
 
 export async function getPostData(id) {
@@ -50,7 +50,7 @@ export async function getPostData(id) {
 
   // Use remark to convert markdown into HTML string
   const processedContent = await remark()
-    .use(html)
+    .use(html, { sanitize: false })
     .use(prism)
     .process(matterResult.content)
 
