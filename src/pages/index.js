@@ -36,7 +36,7 @@ export default function Home({ allPostsData }) {
           {allPostsData.map(({ id, date, title, tag }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
-                ✳︎{title}
+                <a>✳︎ {title}</a>
               </Link>
               <br />
               <small className={utilStyles.lightText}>
@@ -44,7 +44,7 @@ export default function Home({ allPostsData }) {
                 {tag.map((t) => (
                   <span className={utilStyles.tag} key={t} >
                     <Link href={`/tag/${convert_tag_to_path(t)}`}>
-                      [{t}]
+                      <a>[{t}]</a>
                     </Link>
                   </span>
                   ))}
@@ -55,5 +55,5 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
     </Layout>
-  );
+  )
 }

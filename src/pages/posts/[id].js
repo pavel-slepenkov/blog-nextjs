@@ -20,17 +20,16 @@ export default function Post({ postData }) {
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
             </article>
             <div>
-                {postData.tag.map((tag, index) => (
-
-                    <span className={utilStyles.tag} key={index}>
+                {postData.tag.map((tag) => (
+                    <span className={utilStyles.tag} >
                         <Link href={`/tag/${convert_tag_to_path(tag)}`}>
-                            [{tag}]
+                            <a>[{tag}]</a>
                         </Link>
                     </span>
                 ))}
             </div>
         </Layout>
-    );
+    )
 }
 
 export async function getStaticPaths() {

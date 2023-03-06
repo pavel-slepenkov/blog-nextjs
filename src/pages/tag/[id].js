@@ -50,7 +50,7 @@ export default function Tag({ tagData }) {
                     { tagData.posts.map(({ postId, title, date}) => (
                         <li className={utilStyles.listItem} key={postId}>
                             ※ <Link href={`/posts/${postId}`}>
-                                {title}
+                                <a>{title}</a>
                             </Link>
                             {/* <br /> */}
                             <small className={utilStyles.tagPageDate}>
@@ -61,5 +61,5 @@ export default function Tag({ tagData }) {
                 </ul>
             </section>
         </Layout>
-    );
+    )
 }
