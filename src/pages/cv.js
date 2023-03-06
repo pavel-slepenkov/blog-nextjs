@@ -4,7 +4,6 @@ import utilStyles from '../styles/utils.module.css'
 import { getPageByName } from '../lib/pages'
 import styles from '../components/layout.module.css'
 import cvStyles from '../styles/cv.module.css'
-// import '../styles/cv.module.css'
 
 export async function getStaticProps() {
     const pageData = await getPageByName('cv');
@@ -29,7 +28,7 @@ export default function Home({ pageData, skills, workExp }) {
             <section className={utilStyles.headingMd} />
 
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-                <div class="no-print">
+                <div className="no-print">
                     <div className="centered">
                         <h1 className={utilStyles.headingLg}>{/* ?> */}</h1>
                         <br/>
@@ -40,14 +39,16 @@ export default function Home({ pageData, skills, workExp }) {
 
                 <div dangerouslySetInnerHTML={{ __html: pageData.contentHtml }} />
                 <table className={cvStyles.layout}>
-                    <tr>
-                        <td className={cvStyles.cvWorkExperience}>
-                            <div dangerouslySetInnerHTML={{ __html: workExp.contentHtml }} />
-                        </td>
-                        <td className={cvStyles.cvSkillsSection}>
-                            <div dangerouslySetInnerHTML={{ __html: skills.contentHtml }} />
-                        </td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <td className={cvStyles.cvWorkExperience}>
+                                <div dangerouslySetInnerHTML={{ __html: workExp.contentHtml }} />
+                            </td>
+                            <td className={cvStyles.cvSkillsSection}>
+                                <div dangerouslySetInnerHTML={{ __html: skills.contentHtml }} />
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
                 {/* <div>
                     <div dangerouslySetInnerHTML={{ __html: pageData.tableau }} />
