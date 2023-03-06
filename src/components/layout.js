@@ -55,15 +55,15 @@ export default function Layout({ children, home }) {
                 </style>
 
             </Head>
-            <div class="no-print">
+            <div className="no-print">
 
                 <header className={styles.header}>
                     <div className="navbar-link">
-                        <Link href="/">
-                            <a className={`${styles.devNull}`}>{name}</a>
+                        <Link href="/" className={`${styles.devNull}`}>
+                            {name}
                         </Link>—————
-                        <Link href="/cv">
-                            <a className={styles.devNull}>CV</a>
+                        <Link href="/cv" className={styles.devNull}>
+                            CV
                         </Link>
                     </div>
                     <DarkModeToggle />
@@ -74,10 +74,10 @@ export default function Layout({ children, home }) {
             {!home && (
                 <div className={styles.backToHome}>
                     <Link href="/">
-                        <a>⇐ back to home</a>
+                        ⇐ back to home
                     </Link>
                 </div>
             )}
         </div>
-    )
+    );
 }
