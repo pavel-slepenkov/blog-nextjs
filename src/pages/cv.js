@@ -50,9 +50,9 @@ export default function Home({ pageData, skills, workExp }) {
                         </tr>
                     </tbody>
                 </table>
-                {/* <div>
+                <div>
                     <div dangerouslySetInnerHTML={{ __html: pageData.tableau }} />
-                </div> */}
+                </div>
             </section>
         </Layout>
     )

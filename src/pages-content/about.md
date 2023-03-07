@@ -16,7 +16,7 @@ Although, I have more than ten years of professional software development experi
 I'm an active member of <a href="https://stackoverflow.com/users/798335/pavel-slepiankou">StackOverflow / StackExchange communities</a>.
 I found that answering other people questions is a very fun and effective way to learn something new.
 
-I'm currently with <a href="https://www.apptio.com/">Apptio</a> and <a href="https://www.targetprocess.com">Apptio Targetprocess</a> as a senior BI/Data engineer. My main goal here is to provide data platform which improves and transforms business.
+I'm currently with <a href="https://www.apptio.com/">Apptio</a> as a senior data engineer. My main goal here is to provide data platform which improves and transforms business operations.
 
 Current technology stack:
 - 🛠 Python

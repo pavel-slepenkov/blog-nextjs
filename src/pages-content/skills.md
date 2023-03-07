@@ -20,11 +20,11 @@ id: skills
     - 3rd party: Fivetran, StitchData, Pentaho, Salesforce related ETL (Dataloader, DBAmp)
 - **Tableau** and **JupiterLab**
 - **DevOps** & CI/CD Pipelines: Docker, Jenkins, TeamCity, Ansible, Bash, GH Actions
-- Fullstack **Salesforce** developer, architect: Apex, VisualForce, Lightning, Salesforce APIs, Managed packages development
+- Fullstack **Salesforce** developer: Apex, VisualForce, Lightning, Salesforce APIs, Managed packages development
 - Aware of modern **HTML/CSS**
 - **Software testing**: unit and integration testing, UI automated testing with Selenium
 - Full range of modern developer tooling
-- Have wide experience in **Agile** methodologies, as most of the projects which I was part of were using it. Moreover, Targetprocess itself is a project management tool which supports Scrum, Kanban and SAFe
+- Have wide experience in **Agile** methodologies, as most of the projects which I was part of were using it.
 
 <div class="section-header right-pinned">Education & Certification</div>
 

@@ -10,14 +10,12 @@ id: CV
         <td class="cv-summary">
             <div class="left-pinned section-header print-only">Pavel Slepiankou</div>
             <p class="profile-summary">
-                Cross-functional software engineer with a passion for data engineering and analysis, as I believe that data is the most valuable property of any modern company. Solve business problems with code, low-code, no-code, and common sense. Able to elaborate business needs with users and stakeholders, analyze them, design the solution, build it, run in production, and adopt across the users. Proficient with several programming languages, especially with Python and JavaScript. I also have a solid experience in Salesforce.com as a developer and architect, which helps to decompose and understand applications and their data flows.
+                Cross-functional software engineer with a passion for data engineering and analysis, as I believe that data is the most valuable property of any modern company. Solve business problems with code, low-code, no-code, and common sense. Able to elaborate business needs with users and stakeholders, analyze them, design the solution, build it, run in production, and adopt across the users. Proficient with several programming languages, especially with Python and JavaScript. I also have a solid experience in Salesforce.com as a developer and technical lead, which helps to decompose almost any business application and their data flows.
             </p>
         </td>
         <td class="print-only contact-info-section">
-            <div class="left-pinned contact-info">▸ Krakow, Poland, </i></div>
-            <div class="left-pinned contact-info">Russian (native) / English (B2+)</div>
-            <br/>
-            <div class="left-pinned contact-info">▸ pavel.slepenkov@gmail.com | +375-33-669-4140</div>
+            <div class="left-pinned contact-info">▸ Krakow, Poland</div>
+            <div class="left-pinned contact-info">▸ pavel.slepenkov@gmail.com | +48-571-087-630</div>
             <div class="left-pinned contact-info">▸ github.com/pavel-slepenkov | pavelslepenkov.info</div>
             <div class="left-pinned contact-info">▸ stackoverflow.com/users/798335</div>
             <div class="left-pinned contact-info">▸ linkedin.com/in/pavel-slepiankou</div>

@@ -5,8 +5,9 @@
     border:0px solid transparent;
     text-align: left;
     vertical-align: top;
-    width: 50%;
     font-size: smaller;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 .cvWorkExperience {
     width: 65% !important;
