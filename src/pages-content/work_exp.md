@@ -23,13 +23,13 @@ id: work_exp
 <div class="print-only company-header">Targetprocess - www.targetprocess.com</div>
 <p>Nov 2016 - Feb 2021 (<span class="job-title">Data Software Engineer → BI & Data Team Lead</span>)</p>
 
-- Build and support of ETL pipelines and datawarehouses: data ingestion from different sources (GA/FB/LiveChat/Outreach) via API with Python, cleanup and transformation for further data analysis, loading into AWS Redshift / S3. Processing data with AWS Glue for analysis in Athena
+- Build and support of ETL pipelines and datawarehouses: data ingestion from different sources (GA, FB, LiveChat, Outreach, Salesforce, MSSQL, Postgres, Redis) via API with Python, cleanup and transformation for further data analysis, loading into AWS Redshift/S3. Processing data with AWS Glue for analysis in Athena
 - Ongoing development and support of SaaS application telemetry system: processing stream of telemetry data, storing it in temporary storages, cleaning up and further processing with python with final destination in datawarehouse
 - Developed Quote-to-Cash application which saves ~$80k/year for a company
 - Involved as data analyst in due diligence during company acquisition event
+- Build new derivative metrics based on gathered data in order to improve analysis
 - Developed a predictive lead scoring model for incoming lead prioritisation which resulted in huge reduce in manual SDRs and AEs work
 - Created reports in Tableau for C-level management and external auditors
-- Improved sales/marketing processes by its automation and data analysis
 - Interviewed people for data analyst position
 
 <a class="no-print" href="https://epam.com">Epam Systems</a>
