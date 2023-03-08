@@ -37,7 +37,7 @@ export default function Home({ pageData, skills, workExp }) {
                     </div>
                 </div>
 
-                <div dangerouslySetInnerHTML={{ __html: pageData.contentHtml }} />
+                <div className={cvStyles.description} dangerouslySetInnerHTML={{ __html: pageData.contentHtml }} />
                 <table className={cvStyles.layout}>
                     <tbody>
                         <tr>
@@ -50,9 +50,6 @@ export default function Home({ pageData, skills, workExp }) {
                         </tr>
                     </tbody>
                 </table>
-                <div>
-                    <div dangerouslySetInnerHTML={{ __html: pageData.tableau }} />
-                </div>
             </section>
         </Layout>
     )
