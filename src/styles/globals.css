@@ -193,6 +193,10 @@ table {
     font-size: 18px;
     font-weight: 600;
 }
+.profile-summary {
+    text-align: justify;
+    text-align-last: center;
+}
 
 @media print {
     @page {
@@ -274,5 +278,23 @@ table {
     }
     .profile-summary {
         line-height: 20px;
+    }
+}
+
+
+
+@media (max-width: 820px) {
+    html {
+        min-height: 100vh;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        min-height: 100vh;
+        text-align: left;
+    }
+    .right-pinned {
+        text-align: left;
     }
 }

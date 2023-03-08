@@ -10,7 +10,8 @@ id: CV
         <td class="cv-summary">
             <div class="left-pinned section-header print-only">Pavel Slepiankou</div>
             <p class="profile-summary">
-                Cross-functional software engineer with a passion for data engineering and analysis, as I believe that data is the most valuable property of any modern company. Solve business problems with code, low-code, no-code, and common sense. Able to elaborate business needs with users and stakeholders, analyze them, design the solution, build it, run in production, and adopt across the users. Proficient with several programming languages, especially with Python and JavaScript. I also have a solid experience in Salesforce.com as a developer and technical lead, which helps to decompose almost any business application and their data flows.
+                As a cross-functional software engineer, I am deeply passionate about data engineering and analysis, as I believe that data is the most valuable asset of any modern company. Solve business problems with code, low-code, no-code, and common sense. I can work closely with users and stakeholders to understand business needs, collect and analyze requirements, design solutions, develop them from the very beginning to the ultimate conclusion, deploy them in production, and ensure their adoption accross user base. Proficient with several programming languages, especially with Python and JavaScript.
+                Additionally, my experience as a Salesforce.com developer and technical lead enables me to break down complex business applications and data flows.
             </p>
         </td>
         <td class="print-only contact-info-section">

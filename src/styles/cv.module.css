@@ -21,3 +21,22 @@
     line-height: 25px;
 }
 
+@media (max-width: 820px) {
+    .layout td {
+        font-size: small;
+        width: 100%;
+    }
+    .description {
+        font-size: small;
+    }
+    .cvWorkExperience {
+        display: block;
+        width: 100% !important;
+        clear:both;
+    }
+    .cvSkillsSection {
+        display: block;
+        width: 100%;
+        clear:both;
+    }
+}

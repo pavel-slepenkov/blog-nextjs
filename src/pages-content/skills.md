@@ -9,11 +9,11 @@ id: skills
 <div class="section-header right-pinned">KEY SKILLS</div>
 
 - **Python**: asyncio, funcy, pandas, matplotlib, seaborn, Django
+- **Advanced Analytical SQL**
 - **AWS**: EC2, S3, Athena, Glue, Lambda, IAM and security
 - **Databases**: Snowflake, AWS Redshift, AWS RDS, Postgres, MSSQL, NoSQL
-- **JavaScript**: Nodejs, ES6, React, Lightning Framework, AngularJS
 - **Message Queues**: Kafka, Celery+Redis
-- **Advanced Analytical SQL**
+- **JavaScript**: Nodejs, ES6, React, Lightning Framework, AngularJS
 - **ETL/ELT Tools**
     - Apache Airflow, Luigi, dbt
     - In-house built ETL frameworks
@@ -22,7 +22,7 @@ id: skills
 - **DevOps** & CI/CD Pipelines: Docker, Jenkins, TeamCity, Ansible, Bash, GH Actions
 - Fullstack **Salesforce** developer: Apex, VisualForce, Lightning, Salesforce APIs, Managed packages development
 - Aware of modern **HTML/CSS**
-- **Software testing**: unit and integration testing, UI automated testing with Selenium
+- **Software testing**: unit and integration testing, automated testing with Selenium
 - Full range of modern developer tooling
 - Have wide experience in **Agile** methodologies, as most of the projects which I was part of were using it.
 
