@@ -5,7 +5,7 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head />
-                <body>
+                <body className='centered'>
                     <script src="noflash.js" />
                     <script src="PathSolver.js" />
                     <Main />
