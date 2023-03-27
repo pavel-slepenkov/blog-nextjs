@@ -64,6 +64,9 @@ export default function Layout({ children, home }) {
                         </Link>—————
                         <Link href="/cv" className={styles.devNull}>
                             CV
+                        </Link>—————
+                        <Link href="/books" className={styles.devNull}>
+                            Books
                         </Link>
                     </div>
                     <DarkModeToggle />
