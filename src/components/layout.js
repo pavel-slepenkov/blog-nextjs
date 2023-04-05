@@ -38,14 +38,14 @@ export default function Layout({ children, home }) {
 
                 <meta name="keywords" content="python, BI, sql, salesforce, data engineering, apex, soql, data analisys" />
                 
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-E5TERN3CWD"></script>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63037633-1"></script>
                 <script
                     dangerouslySetInnerHTML={{
                         __html: `
                             window.dataLayer = window.dataLayer || [];
                             function gtag(){dataLayer.push(arguments);}
                             gtag('js', new Date());
-                            gtag('config', 'G-E5TERN3CWD');
+                            gtag('config', 'UA-63037633-1');
                     `}}
                 />
                 
