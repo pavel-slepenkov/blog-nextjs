@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 4400",
-    "build": "next build && next export && touch out/.nojekyll && echo 'pavelslepenkov.info' >> out/CNAME",
+    "build": "next build && next export && touch out/.nojekyll && echo '0x4ad.com' >> out/CNAME",
     "start": "next start"
   },
   "dependencies": {
