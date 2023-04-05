@@ -297,4 +297,9 @@ table {
     .right-pinned {
         text-align: left;
     }
+    .centered {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
 }
