@@ -38,7 +38,6 @@ export default function Layout({ children, home }) {
 
                 <meta name="keywords" content="python, BI, sql, salesforce, data engineering, apex, soql, data analisys" />
                 
-                <!-- Google tag (gtag.js) -->
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-E5TERN3CWD"></script>
                 <script>
                   window.dataLayer = window.dataLayer || [];
