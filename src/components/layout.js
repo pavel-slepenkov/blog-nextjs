@@ -37,19 +37,17 @@ export default function Layout({ children, home }) {
                 <meta property="twitter:image" content="/og.png" />
 
                 <meta name="keywords" content="python, BI, sql, salesforce, data engineering, apex, soql, data analisys" />
+                
+                <!-- Google tag (gtag.js) -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-E5TERN3CWD"></script>
+                <script>
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
 
-                <meta name="yandex-verification" content="35a3887ea995a4c4" />
-
-                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63037633-1"></script>
-                <script
-                    dangerouslySetInnerHTML={{
-                        __html: `
-                            window.dataLayer = window.dataLayer || [];
-                            function gtag(){dataLayer.push(arguments);}
-                            gtag('js', new Date());
-                            gtag('config', 'UA-63037633-1');
-                    `}}
-                />
+                  gtag('config', 'G-E5TERN3CWD');
+                </script>
+                
                 <style>
                     @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Spectral:wght@300;600&display=swap');
                 </style>
