@@ -37,7 +37,7 @@ export default function Layout({ children, home }) {
                 <meta property="twitter:image" content="/og.png" />
 
                 <meta name="keywords" content="python, BI, sql, salesforce, data engineering, apex, soql, data analisys" />
-                
+
                 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63037633-1"></script>
                 <script
                     dangerouslySetInnerHTML={{
@@ -48,22 +48,27 @@ export default function Layout({ children, home }) {
                             gtag('config', 'UA-63037633-1');
                     `}}
                 />
-                
-                
+
+
                 <style>
                     @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Spectral:wght@300;600&display=swap');
                 </style>
 
             </Head>
-            <div class="no-print">
+            <div className="no-print">
 
                 <header className={styles.header}>
                     <div className="navbar-link">
-                        <Link href="/">
-                            <a className={`${styles.devNull}`}>{name}</a>
-                        </Link>—————
-                        <Link href="/cv">
-                            <a className={styles.devNull}>CV</a>
+                        <Link href="/" className={`${styles.devNull}`}>
+                            Technical notes
+                        </Link>
+                        —————
+                        <Link href="/cv" className={styles.devNull}>
+                            CV
+                        </Link>
+                        —————
+                        <Link href="/books" className={styles.devNull}>
+                            Book reviews
                         </Link>
                     </div>
                     <DarkModeToggle />
@@ -74,10 +79,10 @@ export default function Layout({ children, home }) {
             {!home && (
                 <div className={styles.backToHome}>
                     <Link href="/">
-                        <a>⇐ back to home</a>
+                        ⇐ back to home
                     </Link>
                 </div>
             )}
         </div>
-    )
+    );
 }

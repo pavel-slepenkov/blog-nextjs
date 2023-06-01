@@ -14,7 +14,7 @@ export async function getPageByName(id) {
     const matterResult = matter(fileContents)
     // Use remark to convert markdown into HTML string
     const processedContent = await remark()
-        .use(html)
+        .use(html,  { sanitize: false })
         .use(prism)
         .process(matterResult.content)
 

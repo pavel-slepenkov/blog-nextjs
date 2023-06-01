@@ -5,7 +5,11 @@ import { getPageByName } from '../lib/pages'
 import styles from '../components/layout.module.css'
 import cvStyles from '../styles/cv.module.css'
 
+
 export async function getStaticProps() {
+
+    let random_page = Math.floor(Math.random() * 2) + 1
+
     const pageData = await getPageByName('cv');
     const skills = await getPageByName('skills');
     const workExp = await getPageByName('work_exp');
@@ -19,6 +23,9 @@ export async function getStaticProps() {
 }
 
 export default function Home({ pageData, skills, workExp }) {
+
+    console.log("Home");
+
     return (
         <Layout home>
             <Head>

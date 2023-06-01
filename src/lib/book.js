@@ -5,13 +5,14 @@ import remark from 'remark'
 import html from 'remark-html'
 import prism from 'remark-prism'
 
-const postsDirectory = path.join(process.cwd(), 'posts')
 
-export function getSortedPostsData() {
-    const fileNames = fs.readdirSync(postsDirectory)
+const booksDirectory = path.join(process.cwd(), 'books')
+
+export function getSortedBooksData() {
+    const fileNames = fs.readdirSync(booksDirectory)
     const allPostsData = fileNames.map(fileName => {
         const id = fileName.replace(/\.md$/, '')
-        const fullPath = path.join(postsDirectory, fileName)
+        const fullPath = path.join(booksDirectory, fileName)
         const fileContents = fs.readFileSync(fullPath, 'utf8')
         // Use gray-matter to parse the post metadata section
         const matterResult = matter(fileContents)
@@ -30,8 +31,8 @@ export function getSortedPostsData() {
     })
 }
 
-export function getAllPostIds() {
-    const fileNames = fs.readdirSync(postsDirectory)
+export function getAllBookIds() {
+    const fileNames = fs.readdirSync(booksDirectory)
     return fileNames.map(fileName => {
         return {
             params: {
@@ -41,8 +42,9 @@ export function getAllPostIds() {
     });
 }
 
-export async function getPostData(id) {
-  const fullPath = path.join(postsDirectory, `${id}.md`)
+export async function getBookData(id) {
+  const fullPath = path.join(booksDirectory, `${id}.md`)
+  console.log(fullPath);
   const fileContents = fs.readFileSync(fullPath, 'utf8')
 
   // Use gray-matter to parse the post metadata section
