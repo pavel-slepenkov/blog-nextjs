@@ -5,7 +5,6 @@
   letter-spacing: -0.05rem;
   margin: 1rem 0;
 }
-
 .headingXl {
   font-size: 2rem;
   line-height: 1.3;
@@ -13,51 +12,63 @@
   letter-spacing: -0.05rem;
   margin: 1rem 0;
 }
-
 .headingLg {
   font-size: 1.5rem;
   line-height: 1.4;
   margin: 1rem 0;
 }
-
 .headingMd {
   font-size: 1.2rem;
   line-height: 1.5;
 }
-
 .borderCircle {
   border-radius: 9999px;
 }
-
 .colorInherit {
   color: inherit;
 }
-
 .padding1px {
   padding-top: 1px;
 }
-
 .list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 .listItem {
   margin: 0 0 1.25rem;
 }
-
 .lightText {
   color: #999;
 }
-
 .tag {
   margin-left: 10px;
   color:rgba(112, 97, 126, 0.384);
   font-size: small;
 }
-
 .tagPageDate {
   margin: 15px;
   color: #999;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.card {
+    position: relative;
+    height: 300px;
+    background-color: #f8fff8;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.bottomPined {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: x-small;
 }

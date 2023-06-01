@@ -23,7 +23,7 @@ export default function Home({ allPostsData }) {
       </Head>
 
       <section className={utilStyles.headingMd}>
-        Hi there, my name is Pavel and I'm a developer and data engineer with <b>Apptio</b> and <b>Apptio Targetprocess</b>
+        Hi there, my name is Pavel and I'm a developer and data engineer with <b>Apptio</b>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -36,7 +36,7 @@ export default function Home({ allPostsData }) {
           {allPostsData.map(({ id, date, title, tag }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
-                ✳︎{title}
+                ↠ {title}
               </Link>
               <br />
               <small className={utilStyles.lightText}>

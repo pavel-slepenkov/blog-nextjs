@@ -32,27 +32,30 @@ export default function Home({ allBooksData }) {
           <b>❲ ... random books reviews ... ❳</b>
         </h2>
 
-        <ul className={utilStyles.list}>
+        <div className={utilStyles.wrapper}>
           {allBooksData.map(({ id, date, title, tag }) => (
-            <li className={utilStyles.listItem} key={id}>
+
+            <div className={utilStyles.card} key={id}>
+
               <Link href={`/book/${id}`}>
-                ✳︎{title}
+                {title}
               </Link>
               <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-                {tag.map((t) => (
-                  <span className={utilStyles.tag} key={t} >
-                    <Link href={`/tag/${convert_tag_to_path(t)}`}>
-                      [{t}]
-                    </Link>
-                  </span>
-                  ))}
-              </small>
-            </li>
-
+              <div className={utilStyles.bottomPined}>
+                <small className={utilStyles.lightText}>
+                    <Date dateString={date} />
+                    {tag.map((t) => (
+                    <span className={utilStyles.tag} key={t} >
+                        <Link href={`/tag/${convert_tag_to_path(t)}`}>
+                        [{t}]
+                        </Link>
+                    </span>
+                    ))}
+                </small>
+              </div>
+            </div>
           ))}
-        </ul>
+        </div>
       </section>
     </Layout>
   );

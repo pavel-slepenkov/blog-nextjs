@@ -6,21 +6,21 @@ import Date from '../../components/date'
 import Head from 'next/head'
 import utilStyles from '../../styles/utils.module.css'
 
-export default function Post({ postData }) {
+export default function Book({ bookData }) {
     return (
         <Layout>
             <Head>
-                <title>{postData.title}</title>
+                <title>{bookData.title}</title>
             </Head>
             <article>
-                <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+                <h1 className={utilStyles.headingXl}>{bookData.title}</h1>
                 <div className={utilStyles.lightText}>
-                    <Date dateString={postData.date} />
+                    <Date dateString={bookData.date} />
                 </div>
-                <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+                <div dangerouslySetInnerHTML={{ __html: bookData.contentHtml }} />
             </article>
             <div>
-                {postData.tag.map((tag, index) => (
+                {bookData.tag.map((tag, index) => (
 
                     <span className={utilStyles.tag} key={index}>
                         <Link href={`/tag/${convert_tag_to_path(tag)}`}>
@@ -42,10 +42,10 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-    const postData = await getBookData(params.id)
+    const bookData = await getBookData(params.id)
     return {
         props: {
-            postData
+            bookData
         }
     }
 }

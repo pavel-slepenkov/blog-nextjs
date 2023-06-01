@@ -37,7 +37,7 @@ export default function Layout({ children, home }) {
                 <meta property="twitter:image" content="/og.png" />
 
                 <meta name="keywords" content="python, BI, sql, salesforce, data engineering, apex, soql, data analisys" />
-                
+
                 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63037633-1"></script>
                 <script
                     dangerouslySetInnerHTML={{
@@ -48,8 +48,8 @@ export default function Layout({ children, home }) {
                             gtag('config', 'UA-63037633-1');
                     `}}
                 />
-                
-                
+
+
                 <style>
                     @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Spectral:wght@300;600&display=swap');
                 </style>
@@ -60,13 +60,15 @@ export default function Layout({ children, home }) {
                 <header className={styles.header}>
                     <div className="navbar-link">
                         <Link href="/" className={`${styles.devNull}`}>
-                            {name}
-                        </Link>—————
+                            Technical notes
+                        </Link>
+                        —————
                         <Link href="/cv" className={styles.devNull}>
                             CV
-                        </Link>—————
+                        </Link>
+                        —————
                         <Link href="/books" className={styles.devNull}>
-                            Books
+                            Book reviews
                         </Link>
                     </div>
                     <DarkModeToggle />

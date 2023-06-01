@@ -17,14 +17,14 @@ id: skills
 - **ETL/ELT Tools**
     - Apache Airflow, Luigi, dbt
     - In-house built ETL frameworks
-    - 3rd party: Fivetran, StitchData, Pentaho, Salesforce related ETL (Dataloader, DBAmp)
+    - Fivetran, StitchData, Pentaho
 - **Tableau** and **JupiterLab**
 - **DevOps** & CI/CD Pipelines: Docker, Jenkins, TeamCity, Ansible, Bash, GH Actions
 - Fullstack **Salesforce** developer: Apex, VisualForce, Lightning, Salesforce APIs, Managed packages development
 - Aware of modern **HTML/CSS**
-- **Software testing**: unit and integration testing, automated testing with
+- **Software testing**: unit and integration testing, UI testing with Selenium
 - Full range of modern developer tooling
-- Have wide experience in **Agile** methodologies, as most of the projects which I was part of were using it.
+- Have wide experience in **Agile** methodologies
 
 <div class="section-header right-pinned">Education & Certification</div>
 
