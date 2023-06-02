@@ -58,6 +58,12 @@ export default function Home({ pageData, skills, workExp }) {
                     </tbody>
                 </table>
             </section>
+
+            <hr className='no-print' />
+            <div className='no-print centered'>
+
+                ❖ 2023, Krakow, Poland. available for B2B contract on EDG ❖
+            </div>
         </Layout>
     )
 }

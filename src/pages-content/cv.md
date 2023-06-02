@@ -7,7 +7,7 @@
             </p>
         </td>
         <td class="print-only contact-info-section">
-            <div class="left-pinned contact-info">▸ Krakow, Poland</div>
+            <div class="left-pinned contact-info">▸ Krakow, Poland. Available for B2B contract on EDG</div>
             <div class="left-pinned contact-info">▸ pavel.slepenkov@gmail.com | +48-571-087-630</div>
             <div class="left-pinned contact-info">▸ github.com/pavel-slepenkov | 0x4ad.com</div>
             <div class="left-pinned contact-info">▸ stackoverflow.com/users/798335</div>
