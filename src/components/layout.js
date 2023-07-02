@@ -58,7 +58,7 @@ export default function Layout({ children, home }) {
             <div className="no-print">
 
                 <header className={styles.header}>
-                    <div className="navbar-link">
+                    <div className="navbar-link centered">
                         <Link href="/" className={`${styles.devNull}`}>
                             Technical notes
                         </Link>
@@ -68,7 +68,7 @@ export default function Layout({ children, home }) {
                         </Link>
                         —————
                         <Link href="/books" className={styles.devNull}>
-                            Book reviews
+                            Books & Readings
                         </Link>
                     </div>
                     <DarkModeToggle />

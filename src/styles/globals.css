@@ -27,16 +27,48 @@ img {
 }
 
 blockquote {
-    padding-left: 10px;
-    padding-right: 10px;
-    border-top: #cacaca solid;
-    border-bottom: #cacaca solid;
-    font-size: 16px;
-    font-weight: 600;
-    font-style: italic;
-    margin-left: 22px;
-    background: #fdffe6;
-    color: cadetblue;
+    background: white;
+    padding: 20px 30px 20px 30px;
+    margin: 50px auto;
+    max-width: 90;
+    font-weight: 200;
+}
+
+body.dark-mode blockquote {
+    color: rgb(188, 253, 255);
+    background: #6a0d7d;
+}
+
+blockquote.stacked {
+    border: solid 2px;
+    padding: 20px 30px 20px 30px;
+    box-shadow: 13px 13px 0 0 white,
+        15px 15px 0 0 #0000FF,
+        15px 11px 0 0 #0000FF,
+        11px 15px 0 0 #0000FF;
+}
+
+body.dark-mode blockquote.stacked {
+    border: solid 2px;
+    padding: 20px 30px 20px 30px;
+    box-shadow: 13px 13px 0 0 rgb(2, 2, 2),
+        15px 15px 0 0 #0000FF,
+        15px 11px 0 0 #0000FF,
+        11px 15px 0 0 #0000FF;
+}
+
+blockquote.shadow {
+    border: solid 2px;
+    box-shadow: 15px 15px 0 0 #0000FF;
+}
+
+blockquote.rule {
+    position: relative;
+    left: 7px;
+    background: lighten(#0000FF, 40%);
+    box-shadow: -2px 0 0 #0000FF,
+        -4px 0 0 lighten(#0000FF, 40%),
+        -7px 0 0 #0000FF;
 }
 
 p img {
@@ -87,8 +119,8 @@ body.light-mode {
 }
 
 body.dark-mode {
-    background-color: #371939;
-    color: #ceb4b4;
+    background-color: #4c2050;
+    color: #b5f0fb;
 }
 
 body.dark-mode img.social-logo {
@@ -280,8 +312,6 @@ table {
         line-height: 20px;
     }
 }
-
-
 
 @media (max-width: 820px) {
     html {
