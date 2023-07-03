@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import { useState } from 'react';
 import DarkModeToggle from './DarkModeToggle';
+import CookieBanner from '../components/CookieBanner';
 
 const name = '$ /dev/null'
 export const siteTitle = 'Pavel Slepenkov\'s personal blog'
@@ -83,6 +84,7 @@ export default function Layout({ children, home }) {
                     </Link>
                 </div>
             )}
+            <CookieBanner />
         </div>
     );
 }
