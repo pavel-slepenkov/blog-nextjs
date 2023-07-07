@@ -23,13 +23,14 @@ export default function Home({ allBooksData }) {
       </Head>
 
       <section className={utilStyles.headingMd}>
-        I make sporadic and bit chaotic reviews of books which get in my hands. You could find more in <Link href="https://www.goodreads.com/user/show/22682554-pavel">Goodreads</Link>
+        I make sporadic and a bit chaotic reviews of books, movies, articles which got in my hands.
+        You could find more in <Link href="https://www.goodreads.com/user/show/22682554-pavel">Goodreads</Link>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
 
         <h2 className={utilStyles.headingLg}>
-          <b>❲ ... random books reviews ... ❳</b>
+          <b>❲ ... random reviews ... ❳</b>
         </h2>
 
         <div className={utilStyles.wrapper}>
