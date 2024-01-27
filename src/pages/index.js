@@ -22,9 +22,6 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
 
-      <section className={utilStyles.headingMd}>
-        Hi there, my name is Pavel and I'm a developer and data engineer with <b>Apptio</b>
-      </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
 
