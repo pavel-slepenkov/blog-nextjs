@@ -4,7 +4,6 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import { convert_tag_to_path } from '../lib/utils'
-import Date from '../components/date'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
@@ -32,12 +31,11 @@ export default function Home({ allPostsData }) {
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, tag }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                ↠ {title}
+              ※ <Link href={`/posts/${id}`}>
+                {title}
               </Link>
               <br />
               <small className={utilStyles.lightText}>
-                <Date dateString={date} />
                 {tag.map((t) => (
                   <span className={utilStyles.tag} key={t} >
                     <Link href={`/tag/${convert_tag_to_path(t)}`}>
