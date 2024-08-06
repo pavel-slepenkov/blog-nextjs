@@ -4,8 +4,9 @@ ENV DEBIAN_FRONTEND=noninteractive
 ENV GIT_SSL_NO_VERIFY=1
 
 
+
+COPY . /app
 WORKDIR /app
-COPY src/ /app
 
 RUN npm install
 RUN npm install use-dark-mode  --legacy-peer-deps
